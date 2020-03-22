@@ -1,10 +1,8 @@
-import {IRouter} from "express";
-
 const offersRouter = require(`./offers`);
-const {Router} = require(`express`);
+import {Router} from "express";
 
-const apiRouter: IRouter = new Router();
-
+// @ts-ignore
+const apiRouter = new Router();
 apiRouter.use(`/offers`, offersRouter);
 
-export = apiRouter;
+export default apiRouter;

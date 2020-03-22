@@ -4,7 +4,7 @@ const ExitCode = {
   error: 1,
   success: 0,
 };
-const DEFAULT_PORT = 3000;
+export const DEFAULT_PORT = 3000;
 const SSR_PORT = 8080;
 const HttpCodes = {
   OK: 200,
@@ -25,7 +25,6 @@ export = {
   DEFAULT_COMMAND,
   USER_ARGV_INDEX,
   ExitCode,
-  DEFAULT_PORT,
   ContentType,
   HttpCodes,
   SSR_PORT,
